@@ -1,19 +1,38 @@
-// A start button that when clicked a timer starts and the first question appears.
-// var startQuiz = document.queryselector("start");
-// var startTimer = document.querySelector("timer");
-// var count = 0;
+var quizQuestions = [
+    {
+        question: "Commonly used data types DO NOT include:",
+        answers: ["strings",
+            "booleans",
+            "numbers",
+            "alerts"],
+            correctAnswerIndex: 3
+    },
+    {
+        question: "The condition in an if/else statement is enclosed within______.",
+        answers: ["quotes",
+        "curly brackets",
+        "parentheses",
+        "square brackets"],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "Arrays in Javascript can be used to store _______.",
+        answers: ["numbers and strings",
+        "booleans",
+        "other arrays",
+        "all the above",]
+        correctAnswerIndex: 3
+    },
+    {
+        question: "String values must be enclosed within ______ when being assigned to a variable",
+        answers: [
+            "commas",
+            "curly brackets",
+            "quotes",
+            "parentheses",
+            correctAnswerIndex: 2
+        ]
+    },
+   
+]
 
-// //create a function to run after the start button has been pressed
-// function startingPoint(){
-// startTimer.addEventListener("click", function() {
-//     startTimer.textContent = count;
-// }), 1000
-// }
-// Questions contain buttons for each answer.
-// When answer is clicked, the next question appears
-// If the answer clicked was incorrect then subtract time from the clock
-// The quiz should end when all questions are answered or the timer reaches 0.
-
-// When the game ends, it should display their score and give the user the ability to save their initials and their score
-// add eventlistener to start the game
-console.log("This is linked")
