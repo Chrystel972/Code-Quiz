@@ -15,3 +15,5 @@
 // The quiz should end when all questions are answered or the timer reaches 0.
 
 // When the game ends, it should display their score and give the user the ability to save their initials and their score
+// add eventlistener to start the game
+console.log("This is linked")
